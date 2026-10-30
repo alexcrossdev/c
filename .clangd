@@ -1,0 +1,15 @@
+CompileFlags:
+  Add:
+    - -Wall
+    - -Wextra
+    - -Werror
+    - -Wpedantic
+    - -I.
+    - -DACD_LOGGING_ENABLED
+    - -DDEBUG
+
+Diagonstics:
+  UnusedIncludes: Strict
+
+Index:
+  Background: Build
